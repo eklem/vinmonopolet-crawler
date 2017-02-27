@@ -1,0 +1,14 @@
+{
+  "name": "vinmonopolet-crawler",
+  "version": "0.0.1",
+  "description": "Crawler for Vinmonopolet data to be used by search-index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Espen Klem",
+  "license": "MIT",
+  "dependencies": {
+    "vinmonopolet": "^3.1.1"
+  }
+}
