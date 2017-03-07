@@ -1,0 +1,18 @@
+{
+  "batchSize": 1000,
+  "fieldedSearch": true,
+  "preserveCase": false,
+  "storeable": true,
+  "searchable": true,
+  "indexPath": "data",
+  "logLevel": "error",
+  "nGramLength": [1,2]
+  "fieldOptions": {
+    "productType": {
+      "separator": "§"
+    },
+    "mainCountry": {
+      "separator": "§"
+    }
+  }
+}
