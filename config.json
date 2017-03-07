@@ -7,16 +7,12 @@
   "indexPath": "data",
   "logLevel": "error",
   "nGramLength": [1,2],
-  "fieldOptions": [
-    {
-      "productType": {
-        "separator": "§"
-      }
+  "fieldOptions": {
+    "productType": {
+      "separator": "§"
     },
-    {
-      "mainCountry": {
-        "separator": "§"
-      }
+    "mainCountry": {
+      "separator": "§"
     }
-  ]
+  }
 }
