@@ -6,17 +6,13 @@
   "searchable": true,
   "indexPath": "data",
   "logLevel": "error",
-  "nGramLength": [1,2],
-  "fieldOptions": [
-    {
-      "productType": {
-        "separator": "§"
-      }
+  "nGramLength": [1],
+  "fieldOptions": {
+    "productType": {
+      "separator": "§"
     },
-    {
-      "mainCountry": {
-        "separator": "§"
-      }
+    "mainCountry": {
+      "separator": "§"
     }
-  ]
+  }
 }
