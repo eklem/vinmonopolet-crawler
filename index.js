@@ -1,10 +1,10 @@
 const vinmonopolet = require('vinmonopolet')
 const fs = require('fs');
-const filter = {category:'all',regex:'.'}
+//const filter = {category:'all',regex:'.'}
 //const filter = {category:'Rødvin',regex:'rødvin'}
 //const filter = {category:'Hvitvin',regex:'hvitvin'}
 //const filter = {category:'Brennevin',regex:'whisky|druebrennevin|likør|akevitt|vodka|fruktbrennevin|rom|gin|bitter|genever'}
-//const filter = {category:'Øl',regex:'øl|hveteøl|surøl|ale|porter|stout|klosterstil|spesial|lager|red\/amber|barley|mjød'}
+const filter = {category:'Øl',regex:'øl|hveteøl|surøl|ale|porter|stout|klosterstil|spesial|lager|red\/amber|barley|mjød'}
 //const filter = {category:'Musserende vin',regex:'musserende|champagne'}
 //const filter = {category:'Sterkvin',regex:'portvin|sterkvin|sherry|vermut|madeira'}
 //const filter = {category:'Perlende vin',regex:'perlende'}
@@ -37,8 +37,14 @@ vinmonopolet
         var stringToArray = convertToArray[stringKey]
         product[stringToArray] = [product[stringToArray]]
       }
+      // Add filter.category to product.productType array
       if (filter.category != product.productType[0] && filter.category != 'all') {
         product.productType.push(filter.category)
+        // Temporary filtering fix (doesn't recognize array items as separate filters, but splits on ' ' (space)
+        var productTypeArray = product.productType.join('§')
+        //console.log(productTypeArray)
+        product.productType = [productTypeArray]
+        //console.log('new productType: ' + product.productType)
       }
       // Define field to be id
       product.id = product[setToId]
