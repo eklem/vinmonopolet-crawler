@@ -6,7 +6,7 @@
   "searchable": true,
   "indexPath": "data",
   "logLevel": "error",
-  "nGramLength": [1,2]
+  "nGramLength": [1,2],
   "fieldOptions": [
     {
       "productType": {
