@@ -1,10 +1,10 @@
 const vinmonopolet = require('vinmonopolet')
 const fs = require('fs');
-//const filter = {category:'all',regex:'.'}
+const filter = {category:'all',regex:'.'}
 //const filter = {category:'Rødvin',regex:'rødvin'}
 //const filter = {category:'Hvitvin',regex:'hvitvin'}
 //const filter = {category:'Brennevin',regex:'whisky|druebrennevin|likør|akevitt|vodka|fruktbrennevin|rom|gin|bitter|genever'}
-const filter = {category:'Øl',regex:'øl|hveteøl|surøl|ale|porter|stout|klosterstil|spesial|lager|red\/amber|barley|mjød'}
+//const filter = {category:'Øl',regex:'øl|hveteøl|surøl|ale|porter|stout|klosterstil|spesial|lager|red\/amber|barley|mjød'}
 //const filter = {category:'Musserende vin',regex:'musserende|champagne'}
 //const filter = {category:'Sterkvin',regex:'portvin|sterkvin|sherry|vermut|madeira'}
 //const filter = {category:'Perlende vin',regex:'perlende'}
