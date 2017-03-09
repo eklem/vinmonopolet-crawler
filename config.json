@@ -6,13 +6,28 @@
   "searchable": true,
   "indexPath": "data",
   "logLevel": "error",
-  "nGramLength": [1],
+  "nGramLength": [1,2,3,4],
+  "stopwords": "no",
   "fieldOptions": {
     "productType": {
       "separator": "§"
+      "nGramLength": [1],
     },
     "mainCountry": {
       "separator": "§"
-    }
+      "nGramLength": [1],
+    },
+    "abv": {
+      "separator": "§"
+      "nGramLength": [1],
+    },
+    "price": {
+      "separator": "§"
+      "nGramLength": [1],
+    },
+    "containerSize": {
+      "separator": "§"
+      "nGramLength": [1],
+    },
   }
 }
