@@ -10,24 +10,24 @@
   "stopwords": "no",
   "fieldOptions": {
     "productType": {
-      "separator": "§"
+      "separator": "§",
       "nGramLength": [1],
     },
     "mainCountry": {
-      "separator": "§"
+      "separator": "§",
       "nGramLength": [1],
     },
     "abv": {
-      "separator": "§"
+      "separator": "§",
       "nGramLength": [1],
     },
     "price": {
-      "separator": "§"
+      "separator": "§",
       "nGramLength": [1],
     },
     "containerSize": {
-      "separator": "§"
+      "separator": "§",
       "nGramLength": [1],
-    },
+    }
   }
 }
