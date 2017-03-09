@@ -11,19 +11,29 @@
   "fieldOptions": {
     "productType": {
       "separator": "§",
-      "nGramLength": [1],
+      "nGramLength": [1]
     },
     "mainCountry": {
-      "separator": "§"
+      "separator": "§",
+      "nGramLength": [1]
     },
     "abv": {
-      "separator": "§"
+      "separator": "§",
+      "nGramLength": [1],
+      "searchable": false
     },
     "price": {
-      "separator": "§"
+      "separator": "§",
+      "nGramLength": [1],
+      "searchable": false
     },
     "containerSize": {
-      "separator": "§"
+      "separator": "§",
+      "nGramLength": [1],
+      "searchable": false
+    },
+    "image": {
+      "searchable": false
     }
   }
 }
