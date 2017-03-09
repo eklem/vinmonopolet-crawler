@@ -19,15 +19,21 @@
     },
     "abv": {
       "separator": "§",
-      "nGramLength": [1]
+      "nGramLength": [1],
+      "searchable": false
     },
     "price": {
       "separator": "§",
-      "nGramLength": [1]
+      "nGramLength": [1],
+      "searchable": false
     },
     "containerSize": {
       "separator": "§",
-      "nGramLength": [1]
+      "nGramLength": [1],
+      "searchable": false
+    },
+    "image": {
+      "searchable": false
     }
   }
 }
