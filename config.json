@@ -14,20 +14,16 @@
       "nGramLength": [1],
     },
     "mainCountry": {
-      "separator": "§",
-      "nGramLength": [1],
+      "separator": "§"
     },
     "abv": {
-      "separator": "§",
-      "nGramLength": [1],
+      "separator": "§"
     },
     "price": {
-      "separator": "§",
-      "nGramLength": [1],
+      "separator": "§"
     },
     "containerSize": {
-      "separator": "§",
-      "nGramLength": [1],
+      "separator": "§"
     }
   }
 }
