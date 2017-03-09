@@ -6,7 +6,7 @@
   "searchable": true,
   "indexPath": "data",
   "logLevel": "error",
-  "nGramLength": [1,2,3,4],
+  "nGramLength": [1,2,3],
   "stopwords": "no",
   "fieldOptions": {
     "productType": {
