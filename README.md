@@ -1,5 +1,5 @@
 # vinmonopolet-crawler
-Crawling Vinmonopolet-data and indexing it to a `norch` search index, using `[vinmonopolet](https://github.com/rexxars/vinmonopolet)` and `[search-index-indexer](https://github.com/eklem/search-index-indexer)` library.
+Crawling Vinmonopolet-data and indexing it to a `norch` search index, using [`vinmonopolet`](https://github.com/rexxars/vinmonopolet) and [`search-index-indexer`](https://github.com/eklem/search-index-indexer) library.
 
 
 Has these features:
