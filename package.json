@@ -1,6 +1,6 @@
 {
   "name": "vinmonopolet-crawler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Crawler for Vinmonopolet data to be used by norch / search-index",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Espen Klem",
   "license": "MIT",
   "dependencies": {
-    "vinmonopolet": "^3.1.1"
+    "vinmonopolet": "^3.1.1",
+    "search-index-indexer": "^0.2.12"
   }
 }
