@@ -1,9 +1,10 @@
-#vinmonopolet-crawler
-Crawling Vinmonopolet using [Rexxar's Vinmonopolet repository](https://github.com/rexxars/vinmonopolet). Will be used for indexing to [norch](http://github.com/fergiemcdowall/norch) / [search-index](http://github.com/fergiemcdowall/search-index).
+# vinmonopolet-crawler
+Crawling Vinmonopolet-data and indexing it to a `norch` search index, using `[vinmonopolet](https://github.com/rexxars/vinmonopolet)` and `[search-index-indexer](https://github.com/eklem/search-index-indexer)` library.
 
-Has three features:
+
+Has these features:
 * Removing unwanted key/value pars by it's keys
-* Changing values to arrays for defined keys
-* Copying value of defined key to id-value
-* Creating image URL based on id/code
-* Pushing filter.category to product.productType when different
+* Changing values to arrays for defined keys. Preparing for being used as filters.
+* Copying value of defined key to id-value. Makes it easy to update index.
+* Creating image URL based on id/code.
+* Pushing filter.category to product.productType when different for better filter functionality.
